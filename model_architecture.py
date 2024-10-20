@@ -72,7 +72,7 @@ class ResnetGenerator(nn.Module):
 # PatchGAN Discriminator
 class NLayerDiscriminator(nn.Module):
     def __init__(self, input_nc, ndf=64, n_layers=3):
-        """Construct a PatchGAN discriminator"""
+
         super(NLayerDiscriminator, self).__init__()
         kw = 4  
         padw = 1 
@@ -106,6 +106,5 @@ class NLayerDiscriminator(nn.Module):
         self.model = nn.Sequential(*sequence)
 
     def forward(self, input):
-        """Forward pass"""
         return self.model(input)
 
