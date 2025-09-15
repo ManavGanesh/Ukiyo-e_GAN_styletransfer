@@ -1,6 +1,7 @@
 # Ukiyo-e GAN Stylet Transfer Implementation (CycleGAN)
 
  ![Alt text](Photo->Ukiyoe/20.png)
+ ![Alt text](Photo->Ukiyoe/1.png)
 This project aims to convert Real-life pictures to Ukiyoe Paintings. Though a CycleGAN is being used, the model focuses on the unidirectional transformation rather than bidirectional.
 
  ## Generator Parameters
